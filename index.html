@@ -1,14 +1,26 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
-	<title>Hol </title>
-
-
+	<title>Git flow</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(fuction(){
+			$("#btenviar").click(fuction(e){
+				alert($("#txtUsuario").val());
+				alert($("#txtClave").val());
+			});
+		});
+	</script>
 </head>
 <body>
-<h2>asdads</h2>
-<h1>asdasd</h1>
-<span>probando</span>
-<h3>nueva linea</h3>
+	<h1>Proyecto</h1>
+	Usuario
+	<input id="txtUsuario" type="text" /><br />
+
+	Clave
+	<input id="txtClave" type="text" /><br />
+	<button id="btenviar">
+		Enviar
+	</button>
 </body>
 </html>
